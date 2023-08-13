@@ -1,0 +1,48 @@
+header {
+  padding: 40px 0 25px 0;
+}
+
+.info-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.info-bar__main {
+  /* 가운대(main board판 기준)로 맞추기 위해서 margin값 넣음 */
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-bar__main_title {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.info-bar__main_timer {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-bar__bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-bar__bar img {
+  width: 40px;
+}
+.info-bar__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-bar__icons img {
+  width: 30px;
+  margin-right: 10px;
+}

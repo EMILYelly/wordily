@@ -1,0 +1,7 @@
+@import "/CSS/header.css";
+@import "/CSS/main.css";
+@import "/CSS/footer.css";
+
+body {
+  margin: 0 20px 0 20px;
+}
